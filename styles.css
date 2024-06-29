@@ -2,6 +2,10 @@
     font-family: myFont;
     src: url(fonts/OldLondon.ttf);
 }
+html {
+  scroll-behavior: smooth;
+}
+
 
 body {
     font-family: myFont;
@@ -51,18 +55,47 @@ hr {
     margin: 0;
 }
 
-.about p {
-
-text-align: left;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-
 .pic img {
     height: auto;
     width: 100%;
 
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    border-color: antiquewhite;
+  }
+  
+  .column {
+    flex: 1;
+    text-align: center;
+    border-color: antiquewhite;
+    padding: 10px;
+    margin-left: 160px;
+    margin-right: 160px;
+    box-sizing: border-box;
+  }
+
+  .column img {
+
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px ;
+    border-style: groove;
+
+
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 70px;
+  }
+
+  .column p {
+    font-size: 45px;
+  }
+
 
 
 @media (max-width: 768px) {
@@ -76,8 +109,25 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         width: 300px;
     }
 
-    .pic img {
+    .pic img {    .column {
+        flex: 50%; /* Each column will take up 100% width */
+      }
+
         width: 100%;
         height: auto;
     }
+    .column {
+        flex: 100%; /* Each column will take up 100% width */
+      }
+
+    .column p {
+
+        
+        font-size: 20px;
+    }
+
+      
+
+    
+
 }
