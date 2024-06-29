@@ -65,13 +65,13 @@ hr {
     display: flex;
     flex-wrap: wrap;
     border-color: antiquewhite;
+    justify-content: center; /* Center the content horizontally */
   }
   
   .column {
     flex: 1;
     text-align: center;
     border-color: antiquewhite;
-    padding: 10px;
     margin-left: 160px;
     margin-right: 160px;
     box-sizing: border-box;
@@ -79,7 +79,7 @@ hr {
 
   .column img {
 
-    max-width: 100%;
+    max-width: 65%;
     height: auto;
     border-radius: 20px ;
     border-style: groove;
@@ -89,16 +89,24 @@ hr {
 
   h1 {
     text-align: center;
-    font-size: 70px;
+    font-size: 80px;
   }
 
   .column p {
     font-size: 45px;
+    margin-bottom: 20px;
   }
 
 
 
 @media (max-width: 768px) {
+
+    hr {
+        border: none;
+        border-top: 2px solid #dcdcdc;
+        margin: 0;
+        padding: 0;
+      }
 
     .navbar ul {
     font-size: 15px;
@@ -109,24 +117,21 @@ hr {
         width: 300px;
     }
 
-    .pic img {    .column {
-        flex: 50%; /* Each column will take up 100% width */
-      }
-
+    .pic img {    
+        
         width: 100%;
         height: auto;
     }
     .column {
-        flex: 100%; /* Each column will take up 100% width */
-      }
-
-    .column p {
-
-        
-        font-size: 20px;
+        flex: 1 0 50%; /* Each column will take up 50% width */
+        text-align: center;
     }
 
-      
+    .column p {
+        font-size: 14px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
 
     
 
