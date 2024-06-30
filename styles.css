@@ -2,6 +2,8 @@
     font-family: myFont;
     src: url(fonts/OldLondon.ttf);
 }
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -53,6 +55,7 @@ hr {
     color: rgb(255, 255, 255);
     padding: 0;
     margin: 0;
+    border-top: solid 2px;
 }
 
 .pic img {
@@ -72,11 +75,13 @@ hr {
     flex: 1;
     text-align: center;
     border-color: antiquewhite;
-    margin-left: 160px;
-    margin-right: 160px;
     box-sizing: border-box;
     margin-bottom: 60px;
+    
   }
+
+
+
 
   .column img {
 
@@ -84,7 +89,6 @@ hr {
     height: auto;
     border-radius: 20px ;
     border-style: groove;
-
 
   }
 
@@ -94,9 +98,34 @@ hr {
   }
 
   .column p {
-    font-size: 45px;
-    margin-bottom: 20px;
-  }
+    font-size: 30px;   
+        
+        width: 100%;
+        height: auto;
+    }
+    .column {
+        flex: 1 0 50%; /* Each column will take up 50% width */
+        text-align: center;
+    }
+
+    .column p {
+        font-size: 34px;
+        margin-bottom: 120px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        
+        
+    }
+
+    .text {
+
+        margin-left: 40px;
+        margin-right: 160px;
+
+
+    }
+ 
+  
+
 
 
 
@@ -118,22 +147,14 @@ hr {
         width: 300px;
     }
 
-    .pic img {    
-        
-        width: 100%;
-        height: auto;
-    }
-    .column {
-        flex: 1 0 50%; /* Each column will take up 50% width */
-        text-align: center;
-    }
-
     .column p {
-        font-size: 14px;
-        margin-top: 40px;
-        margin-bottom: 40px;
+        font-size: 8px;
+        margin-bottom: 20px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
     }
-
     
+    .text {
+        margin-right: 15px;
+        
 
 }
