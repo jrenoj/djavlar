@@ -87,8 +87,9 @@ hr {
 
     max-width: 45%;
     height: auto;
-    border-radius: 20px ;
-    border-style:groove;
+    border-radius:20px ;
+    border-style: groove;
+    border-color: #070707;
     margin-bottom: 10px;
 
   }
@@ -122,6 +123,8 @@ hr {
         margin-right: 100px;
         background-color: #232323;
         border-radius: 30px;
+        border-style: groove;
+
         padding: 10px;
 
 
@@ -132,6 +135,8 @@ hr {
         border-radius: 30px;
         margin-left: 90px;
         padding: 20px;
+        border-style: groove;
+
         
     }
  
