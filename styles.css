@@ -85,10 +85,11 @@ hr {
 
   .column img {
 
-    max-width: 65%;
+    max-width: 45%;
     height: auto;
     border-radius: 20px ;
-    border-style: groove;
+    border-style:groove;
+    margin-bottom: 10px;
 
   }
 
@@ -97,11 +98,10 @@ hr {
     font-size: 80px;
   }
 
-  .column p {
+    .column p {
     font-size: 30px;   
         
-        width: 100%;
-        height: auto;
+     
     }
     .column {
         flex: 1 0 50%; /* Each column will take up 50% width */
@@ -110,7 +110,7 @@ hr {
 
     .column p {
         font-size: 34px;
-        margin-bottom: 120px;
+        margin-bottom: 20px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         
         
@@ -118,10 +118,21 @@ hr {
 
     .text {
 
-        margin-left: 40px;
-        margin-right: 160px;
+        margin-left: 90px;
+        margin-right: 100px;
+        background-color: #232323;
+        border-radius: 30px;
+        padding: 10px;
 
 
+    }
+
+    .image {
+        background-color: #232323;
+        border-radius: 30px;
+        margin-left: 90px;
+        padding: 20px;
+        
     }
  
   
@@ -145,16 +156,34 @@ hr {
 
     .head img{
         width: 300px;
+        padding-left: 30px;
     }
 
     .column p {
-        font-size: 8px;
-        margin-bottom: 20px;
+        font-size: 7px;
+        margin-bottom: 10px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .column {
+        margin: 0px;
+        
     }
     
     .text {
-        margin-right: 15px;
-        
 
+        padding: 10px;
+        margin: 20px;
+    }
+
+   
+    .column img {
+        max-width: 80%;
+        margin: 0px;
+        
+    }
+
+    .image {
+        margin: 20px;
+    }
 }
