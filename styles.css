@@ -165,13 +165,13 @@ hr {
     }
 
     .column p {
-        font-size: 7px;
+        font-size: 11px;
         margin-bottom: 10px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
     }
 
     .column {
-        margin: 0px;
+        margin: 10px;
         
     }
     
@@ -183,7 +183,7 @@ hr {
 
    
     .column img {
-        max-width: 80%;
+        max-width: 100%;
         margin: 0px;
         
     }
