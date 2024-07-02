@@ -29,6 +29,40 @@ body {
 
 
 }
+/* Styles for the slideshow */
+.slideshow-container {
+	position: relative;
+	max-width: 100%;
+	margin: auto;
+	overflow: hidden; /* Ensures images don't overflow the container */
+}
+
+.mySlides {
+	display: none;
+	width: 100%; /* Ensures the image takes up the full width */
+}
+
+.mySlides img {
+	width: 100%; /* Ensures the image takes up the full width */
+	height: auto; /* Maintains the aspect ratio of the image */
+}
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 3.5s;
+	animation-name: fade;
+	animation-duration: 3.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: 0} 
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
 .navbar a {
     color: rgb(255, 255, 255); 
     display: inline-block;
