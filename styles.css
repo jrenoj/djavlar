@@ -213,6 +213,7 @@ hr {
         list-style-type: disc; /* Ensure bullet points are displayed */
         text-align: center;
         padding: 30px;
+        font-family: monospace;
     }
     
     .column_services li {
