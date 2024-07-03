@@ -12,3 +12,14 @@ function showSlides() {
 	slides[slideIndex-1].style.display = "block";  
 	setTimeout(showSlides, 7500); 
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+	if (window.location.hash) {
+		var target = document.querySelector(window.location.hash);
+		if (target) {
+			setTimeout(function() {
+				target.scrollIntoView({ behavior: 'smooth' });
+			}, 100); // Delay to ensure the page is fully loaded
+		}
+	}
+});
