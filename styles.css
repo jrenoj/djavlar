@@ -259,6 +259,7 @@ hr {
 
     .info {
         font-size: medium;
+        padding: 12px;
     }
 
     .icons a {
