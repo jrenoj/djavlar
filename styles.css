@@ -329,6 +329,31 @@ hr {
         margin-bottom: 30px;
     }
 
+    .box {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 60px;
+    }
+    
+    .box > div {
+      flex: 1 1 25%;
+      box-sizing: border-box; 
+    }
+
+    .one {
+      margin: 50px;
+      border-style: groove;
+      text-align: center;
+
+    }
+
+    .one img {
+      width: 100%;
+      height: auto; /* Ensures the image maintains its aspect ratio */
+    }
+    
+
+
 
 
 
