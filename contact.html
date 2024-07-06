@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-	<form action="form-process.php" method="POST" class="formcarry-form">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
@@ -22,7 +21,7 @@
 	
 				<li><a href="services.html#services">Services</a></li>
 				<li><a href="portfolio.html"> Portfolio </a></li>
-				<li><a href="contact.html"> Contact</a></li>
+				<li><a href="contact.html#contact"> Contact</a></li>
 	
 	
 			</ul>
@@ -49,27 +48,47 @@
 	<script src="scripts.js"></script>
 
 	<section id="contact">
-		<h1> Contact Form</h1>
-		<p> If you have questions or inquiries, please don’t hesitate to reach out. 
-			Fill out the form with a message and your information below
-			,and I’ll get back to you as soon as possible. Let’s create something amazing together!</p>
 
-	<div class="formcarry-container">
-		<form action="#" method="POST" class="formcarry-form">
-		  <label for="name">Your Name</label>
-		  <input type="text" id="name" name="fullName" required />
-  
-		  <label for="email">Your Email Address</label>
-		  <input type="email" id="email" name="email" required />
-  
-		  <label for="message">Your Message</label>
-		  <textarea name="message" id="message" cols="30" rows="10"></textarea>
-  
-		  <button type="submit">Send</button>
+		<h1> Contact Form</h1>
+		
+
+		<div class="contact_text">
+
+		<p>
+			 If you have questions or inquiries, please don’t hesitate to reach out. 
+			Fill out the form with a message and your information below, 
+			and I’ll get back to you as soon as possible.
+		</p>
+		<p> Let’s create something amazing together!</p>
+	</div>
+
+	<div class="contact-form">
+		
+		<form action="https://api.web3forms.com/submit" method="POST">
+			<input type="hidden" name="access_key" value="3ec1bd36-64c1-45e6-b801-ca4bb800a62c">
+			<br>
+
+			<br>
+
+			<input type="text" name="name" placeholder="Name*" required class="contact-name">
+			<br>
+			<br>
+
+			<br>
+			<input type="email" name="email" placeholder="Email*" class="contact-email">
+			<br>
+
+			<textarea name="message" placeholder="Message*" class="contact-email"></textarea>
+			<br>
+			<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+			<input type="hidden" name="redirect" value="https://web3forms.com/success">
+			<button type="submit">Submit</button>
+		
+
 		</form>
-	  </div>
-	</section>
-	
+	</div>
+
+
 	<hr>
 
 	<footer>
