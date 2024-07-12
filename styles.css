@@ -61,6 +61,7 @@ body {
 	from {opacity: .4} 
 	to {opacity: 1}
 }
+
 .navbar a {
     color: rgb(255, 255, 255); 
     display: inline-block;
@@ -91,11 +92,7 @@ hr {
     border-top: solid 2px;
 }
 
-.pic img {
-    height: auto;
-    width: 100%;
 
-}
 
 .row {
     display: flex;
@@ -107,11 +104,8 @@ hr {
   
   .column {
     flex: 1;
-    text-align: center;
-    border-color: antiquewhite;
     box-sizing: border-box;
-    margin-bottom: 60px;
-    
+    padding: 90px;
   }
 
 
@@ -119,11 +113,10 @@ hr {
 
   .column img {
 
-    max-width: 47%;
+    width: 100%;
     height: auto;
     border-radius:20px ;
     border-style: groove;
-    border-color: #070707;
     border-color: #fff;
     
 
@@ -142,7 +135,7 @@ hr {
     .column {
         flex: 1 0 50%; 
         text-align: center;
-        margin-top: 20px;
+        
     }
 
     .column p {
@@ -150,32 +143,29 @@ hr {
         margin-bottom: 20px;
         font-family: monospace;
 
-        
-        
     }
 
+
+
+
+    .column-bio {
+      border-style: groove;
+      border-radius: 20px;
+      padding: 20px;
+    }
     .text {
+      margin-left: 100px;
+      margin-right: 100px;
+      border-style: groove;
+      border-radius: 20px;
+    }
 
-        margin-left: 90px;
-        margin-right: 100px;
-        border-radius: 30px;
-        border-style: groove;
-        margin-bottom: 52px;
-
-
+    .text p {
+      padding: 20px;
+      margin: 0px;
+    }
+  
  
-
-
-        padding: 20px;
-        flex: 1;
-
-
-    }
-
-    .image {
-        border-radius: 30px;
-        margin-left: 90px;
-    }
     
     .info {
         font-size: 25px;
@@ -245,9 +235,9 @@ hr {
     }
     
     .column_services li {
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         padding: 20px;
-        font-size: 28px;
+        font-size: 18px;
         
     }
 
@@ -333,6 +323,9 @@ hr {
       display: flex;
       flex-wrap: wrap;
       margin-bottom: 60px;
+      margin-left: 100px;
+      margin-right: 100px;
+
     }
     
     .box > div {
@@ -349,15 +342,48 @@ hr {
 
     .one img {
       width: 100%;
-      height: auto; /* Ensures the image maintains its aspect ratio */
+      height: auto; 
     }
-    
+
+    .container {
+     display: flex;
+     flex-wrap: wrap;
+     margin-left: 70px;
+     margin-right: 70px;
+     margin-bottom: 30px;
+     
+
+    }
+
+    .new {
+      border-style: groove;
+      margin: 30px;
+      font-size: 27px;
+      font-family: monospace;
+      padding: 40px;
+      border-radius: 20px;
+
+
+    }
+   
 
 
 
 
 
 @media (max-width: 768px) {
+
+  .container {
+    margin: 30px;
+  }
+
+  .new {
+    margin: 0px;
+    padding:20px;
+    font-size: medium;
+    margin-bottom: 30px;
+    line-height: 25px;
+  }
 
     hr {
         border: none;
@@ -380,12 +406,14 @@ hr {
         font-size: 12px;
         margin-bottom: 0px;
         padding: 20px;
+        line-height: 25px;
     }
 
     .column {
         margin: 20px;
-        margin-bottom: 100;
-        
+        margin-bottom: 0px;
+        padding: 20px;
+
     }
     
     .text {
@@ -401,8 +429,24 @@ hr {
     padding: 0px;    
     
     }
+    
 
+ 
 
+    .column-bio {
+      padding: 0px;
+      line-height: 25px;
+
+      margin-bottom: 0px;
+    }
+
+    .column-bio p{
+      padding-top: 4px;
+      padding-bottom: 4px;
+      line-height: normal;
+      line-height: 20px;
+
+    }
    
     .column img {
         max-width: 100%;
