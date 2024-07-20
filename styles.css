@@ -437,7 +437,7 @@ hr {
       padding: 0px;
       line-height: 25px;
 
-      margin-bottom: 0px;
+      margin-bottom: 40px;
     }
 
     .column-bio p{
@@ -490,6 +490,7 @@ hr {
         font-size: 35px;
         text-decoration: azure;
         margin-bottom: 20px;
+        line-height: 30px;
         margin-top: 0px;
 
 
@@ -516,12 +517,13 @@ hr {
         text-align: left;
         font-family: monospace;
         border-radius: 20px;
+        padding: 10px;
 
     }
     
     .column_services li {
-        margin-bottom: 10px;
-        font-size: 12px;
+        margin-bottom: 0px;
+        font-size: 15px;
         margin-top: 0px;
 
     }
