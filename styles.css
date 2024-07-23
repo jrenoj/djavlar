@@ -57,7 +57,7 @@ body {
 	to {opacity: 1}
 }
 
-@keyframes fade {
+@keyframes fade {my
 	from {opacity: .4} 
 	to {opacity: 1}
 }
@@ -130,7 +130,6 @@ hr {
   }
 
 
-     
     
     .column {
         flex: 1 0 50%; 
@@ -141,7 +140,7 @@ hr {
     .column p {
         font-size: 27px;
         margin-bottom: 20px;
-        font-family: monospace;
+        font-family: Georgia, 'Times New Roman', Times, serif;
 
     }
 
@@ -227,9 +226,9 @@ hr {
  
     .column_services ul {
         text-align: left;
-        font-family: monospace;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         border-radius: 20px;
-        margin-top: 0px;
+
 
 
     }
@@ -237,7 +236,11 @@ hr {
     .column_services li {
         margin-bottom: 10px;
         padding: 20px;
-        font-size: 18px;
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        line-height: 30px;
+
+
         
     }
 
@@ -247,6 +250,57 @@ hr {
 
     }
 
+    .faq h1 {
+      font-family: myFont;
+      margin-top: 0px;
+    }
+ 
+    .faq {
+      margin: 90px;
+      
+    }
+
+    .faq hr{
+      margin-top: 50px;
+      margin-bottom: 50px;
+
+    }
+
+
+    .faq ul {
+      text-align: left;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      line-height: 25px;
+
+
+  }
+  
+  .faq li {
+      margin-bottom: 10px;
+      font-size: 18px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      line-height: 25px;
+
+      
+
+
+      
+  }
+    .faq li {
+      margin-bottom: 50px;
+
+      
+    }
+ 
+    .faq ul {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+
+      margin-top: 50px;
+      margin-bottom: 50px;
+      border-radius: 20px;
+      border-style: groove;
+      padding: 50px;
+    }
     #contact h1{
       margin-bottom: 50px;
     }
@@ -258,7 +312,7 @@ hr {
         margin-right: 500px;
         margin-bottom: 50px;
         border-radius: 20px;
-        font-family: monospace;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         font-size:larger;
 
         .image-container {
@@ -267,7 +321,7 @@ hr {
       }
       
       .image-container img {
-          width: 100%; /* Adjust the size as needed */
+          width: 100%;
           display: block;
       }
       
@@ -277,7 +331,7 @@ hr {
           left: 0;
           width: 100%;
           height: 100%;
-          background: rgba(0, 0, 0, 0.7); /* Dark background with transparency */
+          background: rgba(0, 0, 0, 0.7); 
           display: flex;
           justify-content: center;
           align-items: center;
@@ -325,7 +379,7 @@ hr {
         border-color: #fff;
         background-color: #1a1a1a;
         color: #fff;
-        font-family: monospace;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         padding:20px;
         height: 300px;
 
@@ -432,19 +486,24 @@ hr {
       border-style: groove;
       margin: 30px;
       font-size: 27px;
-      font-family: monospace;
+      font-family: 'Times New Roman', Times, serif;
       padding: 40px;
       border-radius: 20px;
 
 
     }
-   
+    
 
 
 
 
 
 @media (max-width: 768px) {
+  .faq hr{
+    margin-top: 0px;
+    margin-bottom: 30px;
+
+  }
 
   .container {
     margin: 30px;
@@ -488,7 +547,9 @@ hr {
         padding: 20px;
 
     }
-    
+    .faq ul {
+      text-align: center;
+    }
     .text {
         
         padding: 5px;
@@ -567,6 +628,17 @@ hr {
 
     }
 
+    .faq {
+      margin: 30px;
+      padding: 0px;
+    }
+
+    .faq h1 {
+      font-size: 35px;
+    }
+
+
+
     .column_services h1 {
         font-size: 35px;
         text-decoration: azure;
@@ -596,16 +668,21 @@ hr {
  
     .column_services ul {
         text-align: left;
-        font-family: monospace;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         border-radius: 20px;
         padding: 10px;
+        text-align: center;
+        list-style-position: inside;
 
     }
     
     .column_services li {
         margin-bottom: 0px;
-        font-size: 15px;
+        font-size: larger;
         margin-top: 0px;
+        text-align: center;
+        
+
 
     }
 
@@ -652,7 +729,7 @@ hr {
         border-color: #fff;
         background-color: #1a1a1a;
         color: #fff;
-        font-family: monospace;
+        font-family: Georgia, 'Times New Roman', Times, serif
         padding: 15px;
 
       }
@@ -674,6 +751,7 @@ hr {
 
     .pic-text {
       font-size: small;
+      color: #fff;
     }
 
 
