@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		if (target) {
 			setTimeout(function() {
 				target.scrollIntoView({ behavior: 'smooth' });
-			}, 100); // Delay to ensure the page is fully loaded
+			}, 100); 
 		}
 	}
 });
