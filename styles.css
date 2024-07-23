@@ -482,6 +482,16 @@ hr {
     transform: translate(-50%, -50%);
     text-align: center;
   }
+  .bio-box img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.bio-box.active .overlay {
+  opacity: 0.8;
+  pointer-events: auto; /* Enable pointer events when active */
+}
+
 
   .bio-box {
     position: relative;
@@ -500,6 +510,7 @@ hr {
     color: white;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    pointer-events: none; 
 }
 
 .overlay p {

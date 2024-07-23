@@ -23,3 +23,14 @@ document.addEventListener("DOMContentLoaded", function() {
 		}
 	}
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll('.toggle-overlay').forEach(img => {
+        img.addEventListener('click', function() {
+            const bioBox = this.parentElement;
+            bioBox.classList.toggle('active');
+        });
+    });
+});
+
