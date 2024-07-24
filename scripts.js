@@ -10,7 +10,7 @@ function showSlides() {
 	slideIndex++;
 	if (slideIndex > slides.length) {slideIndex = 1}    
 	slides[slideIndex-1].style.display = "block";  
-	setTimeout(showSlides, 7500); 
+	setTimeout(showSlides, 6500); 
 }
 
 document.addEventListener("DOMContentLoaded", function() {
