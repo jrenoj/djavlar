@@ -13,24 +13,3 @@ function showSlides() {
 	setTimeout(showSlides, 10000); 
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-	if (window.location.hash) {
-		var target = document.querySelector(window.location.hash);
-		if (target) {
-			setTimeout(function() {
-				target.scrollIntoView({ behavior: 'smooth' });
-			}, 100); 
-		}
-	}
-});
-
-
-document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll('.toggle-overlay').forEach(img => {
-        img.addEventListener('click', function() {
-            const bioBox = this.parentElement;
-            bioBox.classList.toggle('active');
-        });
-    });
-});
-

@@ -504,7 +504,7 @@ hr {
     right: 0;
     height: 100%;
     width: 100%;
-    opacity: 0;
+    opacity: 0.8;
     transition: .5s ease;
     background-color: rgb(0, 0, 0); 
     color: white;
@@ -525,9 +525,6 @@ hr {
   padding: 100px;
 }
 
-  .bio-box:hover .overlay {
-      opacity: 0.8;
-  }
 
 
 
