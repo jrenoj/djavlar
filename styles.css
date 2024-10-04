@@ -1,3 +1,13 @@
+img, hr {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+
 @font-face {
     font-family: myFont;
     src: url(fonts/OldLondon.ttf);
@@ -622,9 +632,7 @@ hr {
         padding: 20px;
 
     }
-    .faq ul {
-      text-align: center;
-    }
+
     .text {
         
         padding: 5px;
@@ -706,10 +714,16 @@ hr {
     .faq {
       margin: 30px;
       padding: 0px;
+      text-align: left;
     }
 
     .faq h1 {
       font-size: 35px;
+      
+    }
+
+    .faq ul, li {
+      text-align: left;
     }
 
 
@@ -729,13 +743,14 @@ hr {
     .column_services {
 
         flex: 1;
-        text-align: center;
+        align-items:center;
         margin: 10px;
         box-sizing: border-box;
         padding: 20px;
         border-radius: 20px;
         border-style: groove;
         margin-bottom: 60px;
+
 
         
     
@@ -746,8 +761,8 @@ hr {
         font-family: Georgia, 'Times New Roman', Times, serif;
         border-radius: 20px;
         padding: 10px;
-        text-align: center;
-        list-style-position: inside;
+        text-align: left;
+        padding-left: 30px; /* Removes left padding */
 
     }
     
@@ -755,8 +770,7 @@ hr {
         margin-bottom: 0px;
         font-size: larger;
         margin-top: 0px;
-        text-align: center;
-        
+        text-align: left;
 
 
     }
