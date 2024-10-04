@@ -632,7 +632,9 @@ hr {
         padding: 20px;
 
     }
-
+    .faq ul {
+      text-align: center;
+    }
     .text {
         
         padding: 5px;
@@ -743,7 +745,7 @@ hr {
     .column_services {
 
         flex: 1;
-        align-items:center;
+        text-align: center;
         margin: 10px;
         box-sizing: border-box;
         padding: 20px;
@@ -770,7 +772,8 @@ hr {
         margin-bottom: 0px;
         font-size: larger;
         margin-top: 0px;
-        text-align: left;
+        text-align: center;
+        
 
 
     }
