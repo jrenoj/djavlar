@@ -91,9 +91,13 @@ body {
     color: #fff;
 }
 
-.head  {
+.head img{
     text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 hr {
     color: rgb(255, 255, 255);
@@ -772,7 +776,7 @@ hr {
         margin-bottom: 0px;
         font-size: larger;
         margin-top: 0px;
-        text-align: center;
+        text-align: left;
         
 
 
