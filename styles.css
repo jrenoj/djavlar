@@ -623,7 +623,7 @@ hr {
 
     }
     .faq ul {
-      text-align: center;
+      text-align: left;
     }
     .text {
         
@@ -729,7 +729,7 @@ hr {
     .column_services {
 
         flex: 1;
-        text-align: center;
+        text-align: left;
         margin: 10px;
         box-sizing: border-box;
         padding: 20px;
@@ -755,7 +755,7 @@ hr {
         margin-bottom: 0px;
         font-size: larger;
         margin-top: 0px;
-        text-align: center;
+        text-align: left;
         
 
 
