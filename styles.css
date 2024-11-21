@@ -534,8 +534,9 @@ hr {
 }
 
 .text-ha {
-  align-items: left;
-  padding: 100px;
+  margin-top: 250px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 
