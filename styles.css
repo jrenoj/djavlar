@@ -96,6 +96,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
 }
 
 
@@ -332,13 +333,15 @@ hr {
 
 
       .contact_text{
+        display: flex; /* Make the body a flex container */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        margin-left: 500px;
         text-align: center;
-        margin-left: 700px;
-        margin-right: 700px;
-        margin-bottom: 50px;
-        border-radius: 20px;
+        margin-right: 500px;
+ 
+    
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size:larger;
 
         .image-container {
           position: relative;
@@ -346,6 +349,8 @@ hr {
       }
       
       .image-container img {
+        position: relative;
+        display: inline-block;
           width: 100%;
           display: block;
       }
@@ -373,11 +378,20 @@ hr {
 
 
 
+
       .contact-form {
         margin-left: 500px;
         margin-right: 500px;
         align-items: center;
       }
+
+      .contact-png {
+        width: 500px;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
       .contact-form input {
         width: 95.5%;
@@ -583,11 +597,11 @@ hr {
 
 
   .overlay p {
+    margin-top: 65px;
     font-size: large;
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
 
 
     
@@ -791,13 +805,19 @@ hr {
         margin-bottom: 0px;
     }
 
+    .contact-png {
+      width: 300px;
+    }
+
+
     .contact_text {
       margin-left: 30px;
       margin-right: 30px;
       margin-bottom: 0px;
       margin-top: 0px;
-
       font-size: 12px;
+      text-align: center;
+      
       }
 
 
