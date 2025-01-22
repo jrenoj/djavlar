@@ -519,6 +519,16 @@ hr {
   pointer-events: auto; /* Enable pointer events when active */
 }
 
+.bio-tag {
+  margin-top: 300px;
+}
+
+.bio-tag p {
+  line-height: 0px;
+
+
+
+}
 
   .bio-box {
     position: relative;
@@ -583,6 +593,13 @@ hr {
 
 
 @media (max-width: 768px) {
+
+  .bio-png img{
+
+    margin-top: 0px;
+
+  }
+  
 
   .bio-box {
     align-self: auto;
